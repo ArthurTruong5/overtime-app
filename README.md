@@ -9,8 +9,6 @@ An overtime application for companies that need documentation for salaries emplo
 * User -> Devise
 * AdminUser -> STI
 
-`$ pip install foobar`
-
 ## Features
 
 * Approval Workflow
