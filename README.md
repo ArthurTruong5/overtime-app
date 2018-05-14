@@ -1,24 +1,32 @@
-# README
+# Overtime App ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An overtime application for companies that need documentation for salaries employees to keep track of overtime each week.
 
-Things you may want to cover:
+## Models
 
-* Ruby version
+### List
+* Post -> date:date rationale:text
+* User -> Devise
+* AdminUser -> STI
 
-* System dependencies
+`$ pip install foobar`
 
-* Configuration
+## Features
 
-* Database creation
+* Approval Workflow
+* SMS Sending -> Link to approval or overtime input
+* Admin dashboard
+* Seamless documentation
 
-* Database initialization
 
-* How to run the test suite
+## UI
 
-* Services (job queues, cache servers, search engines, etc.)
+* Bootstrap -> Formatting
 
-* Deployment instructions
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-* ...
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
